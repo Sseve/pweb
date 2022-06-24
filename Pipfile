@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sanic = {extras = ["all"], version = "*"}
+databases = "*"
+aiomysql = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
